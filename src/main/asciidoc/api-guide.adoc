@@ -1,0 +1,71 @@
+= API Guide
+Toshiaki Maki(@making);
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+
+[[resources]]
+
+= Common Error
+
+
+==== Response structure
+
+include::{snippets}/api/get-movie-rejected/response-fields.adoc[]
+
+
+== Invalid Token
+
+
+==== Example request
+
+include::{snippets}/api/get-movie-rejected/curl-request.adoc[]
+
+
+==== Example response
+
+include::{snippets}/api/get-movie-rejected/http-response.adoc[]
+
+
+= Resources
+
+
+[[resources-movies]]
+== Movie
+
+[[resources-get-movie]]
+=== Get a movie
+
+==== Response structure
+
+include::{snippets}/api/get-movie/response-fields.adoc[]
+
+==== Example request
+
+include::{snippets}/api/get-movie/curl-request.adoc[]
+
+==== Example response
+
+include::{snippets}/api/get-movie/http-response.adoc[]
+
+[[resources-tvshows]]
+== TV Show
+
+[[resources-get-movie]]
+=== Get a movie
+
+==== Response structure
+
+include::{snippets}/api/get-tvshow/response-fields.adoc[]
+
+==== Example request
+
+include::{snippets}/api/get-tvshow/curl-request.adoc[]
+
+==== Example response
+
+include::{snippets}/api/get-tvshow/http-response.adoc[]
